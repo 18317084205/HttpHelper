@@ -1,0 +1,13 @@
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    groupId = GROUPID
+    artifactId = ARTIFACTID
+    publishVersion = VERSIONS
+    desc = DESC
+    website = 'https://github.com/18317084205/HttpTest'
+    bintrayUser = BINTRAY_USER
+    userOrg = BINTRAY_USER
+    bintrayKey = BINTRAY_KEY
+    dryRun = false
+}
