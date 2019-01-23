@@ -5,7 +5,7 @@ publish {
     artifactId = ARTIFACTID
     publishVersion = VERSIONS
     desc = DESC
-    website = 'https://github.com/18317084205/HttpTest'
+    website = 'https://github.com/18317084205/HttpHelper'
     bintrayUser = BINTRAY_USER
     userOrg = BINTRAY_USER
     bintrayKey = BINTRAY_KEY
